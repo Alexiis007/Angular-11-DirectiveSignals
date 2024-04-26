@@ -6,7 +6,8 @@ import { CustomLabelDirective } from './directives/custom-label.directive';
 
 @NgModule({
   declarations: [
-    CustomLabelDirective
+    CustomLabelDirective,
+
   ],
   imports: [
     CommonModule

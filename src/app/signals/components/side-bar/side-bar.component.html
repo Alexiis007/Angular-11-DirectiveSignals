@@ -1,0 +1,10 @@
+<ul class="list-group">
+    <li *ngFor="let item of menuItems()" class="list-group-item btn btn-primary" routerLinkActive="active" [routerLink]="item.rutas">
+        {{item.name}}
+    </li>
+</ul>
+
+
+
+<!-- //acceso a el signal es con ()  -->
+<pre>{{menuItems() | json}}</pre>
